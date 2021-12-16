@@ -1,7 +1,9 @@
 # This program adds two numbers
+
 - task: highlightcodescan@5
   inputs:
-
+    exclusiondir: 'test, ,git, COTS'
+    upload: true
 num1 = 1.5
 num2 = 6.3
 
