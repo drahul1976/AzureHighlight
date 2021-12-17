@@ -1,4 +1,4 @@
- task: highlightcodescan@5
+ -task: highlightcodescan@5
   inputs:
     exclusiondir: 'test, ,git, COTS'
     upload: true
